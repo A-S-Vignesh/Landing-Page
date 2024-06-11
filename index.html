@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Hotel Booking</title>
+    <link rel="shortcut icon" href="images/favicon2.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/2c42439e9f.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark-custom fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="images/favicon2.png" alt="Hotel" width="30" height="24">
+                    Star Hotel Booking</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#rooms">Rooms</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#amenities">Amenities</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about-us">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#booking">Book Now</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="main">
+        <div class="overlay"></div>
+        <h1><b>Welcome to Star Hotel</b></h1>
+        <p>Experience luxury and comfort at its best</p>
+        <a href="#rooms" class="cta-button">View Rooms</a>
+    </section>
+
+    <section id="rooms">
+        <h2>Our Rooms</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="room">
+                        <img class="room-img" src="images/deluxe1.jpg" alt="Deluxe room">
+                        <h3>Deluxe Room</h3>
+                        <p>A spacious room with a king-size bed and ocean view. Includes complimentary breakfast, free
+                            Wi-Fi,
+                            and access to the pool and gym. Ideal for couples or small families looking for luxury and
+                            comfort.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="room">
+                        <img class="room-img" src="images/standard1.jpg" alt="Standard room">
+                        <h3>Standard Room</h3>
+                        <p>A comfortable room with a queen-size bed and city view. Includes free Wi-Fi and access to the
+                            pool
+                            and gym. Perfect for solo travelers or couples seeking a cozy stay.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="room">
+                        <img class="room-img" src="images/joint2.jpg" alt="Joint room">
+                        <h3>Joint Room</h3>
+                        <p>Two separate rooms with a common wall but no connecting door. Great for families with older
+                            children
+                            who need their own space but still want to stay close.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="room">
+                        <img class="room-img" src="images/connecting2.jpg" alt="Connecting room">
+                        <h3>Connecting Room</h3>
+                        <p>Rooms with a connecting door between them, as well as individual doors to the hallway. Ideal
+                            for families
+                            or groups who want easy access between rooms without stepping out.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="amenities">
+        <h2>Amenities</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="amenity">
+                        <img class="amenity-img" src="images/swimmingpool1.jpg" alt="Swimming Pool">
+                        <h3>Swimming Pool</h3>
+                        <p>Relax and unwind in our outdoor swimming pool with a poolside bar. Perfect for a refreshing
+                            swim or lounging in the sun.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="amenity">
+                        <img class="amenity-img" src="images/spa1.jpg" alt="Spa Services">
+                        <h3>Spa Services</h3>
+                        <p>Indulge in our rejuvenating spa treatments, including massages, facials, and more. Designed
+                            to pamper and revitalize you.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="amenity">
+                        <img class="amenity-img" src="images/fitness1.jpg" alt="Fitness Center">
+                        <h3>Fitness Center</h3>
+                        <p>Stay fit during your stay with access to our fully equipped fitness center. Offering a range
+                            of equipment for all your workout needs.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="amenity">
+                        <img class="amenity-img" src="images/tv1.jpg" alt="Television">
+                        <h3>Television</h3>
+                        <p>Enjoy a wide selection of channels on our flat-screen televisions available in every room.
+                            Perfect for catching up on your favorite shows or unwinding with a movie.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="testimonials">
+        <h2>Guest Testimonials</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="testimonial">
+                        <p>"An amazing experience! The rooms are beautiful and the service is excellent. Highly
+                            recommend this
+                            hotel."</p>
+                        <cite>- Happy Guest</cite>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="testimonial">
+                        <p>"Best hotel stay ever! The amenities were top-notch and the staff was very friendly. Will
+                            definitely
+                            come back."</p>
+                        <cite>- Satisfied Customer</cite>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="testimonial">
+                        <p>"A perfect getaway! The location is superb and the food is fantastic. Can't wait to visit
+                            again."</p>
+                        <cite>- Delighted Visitor</cite>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="testimonial">
+                        <p>"Exceptional hospitality! The staff went above and beyond to make our stay memorable."</p>
+                        <cite>- Grateful Guest</cite>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="testimonial">
+                        <p>"Luxury at its finest. Every detail was taken care of. Truly a five-star experience."</p>
+                        <cite>- Thrilled Customer</cite>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="testimonial">
+                        <p>"From the moment we arrived, we were treated like royalty. Highly recommended for anyone
+                            seeking a lavish stay."</p>
+                        <cite>- Royalty Treatment</cite>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="testimonial">
+                        <p>"The views from our room were stunning. The ambiance of the hotel is just perfect for a
+                            relaxing vacation."</p>
+                        <cite>- Peaceful Traveler</cite>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="testimonial">
+                        <p>"Our stay was magical! The attention to detail and personalized service made all the
+                            difference."</p>
+                        <cite>- Enchanted Guest</cite>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="about-us" class="bg-light py-5">
+        <div class="container">
+            <h2>About Us</h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="images/about-us.jpg" alt="About Us" class="img-fluid rounded">
+                </div>
+                <div class="col-lg-6">
+                    <p>Star Hotel is a luxurious haven located in the heart of the city. Our mission is to provide
+                        exceptional
+                        hospitality and unparalleled service to ensure our guests have a memorable stay. With elegant
+                        rooms, world-class
+                        amenities, and a dedicated team, we strive to exceed expectations and create unforgettable
+                        experiences for our
+                        guests. Whether you're traveling for business or leisure, Star Hotel offers the perfect blend of
+                        comfort, convenience,
+                        and sophistication.</p>
+                    <p>Our team is committed to making your stay as comfortable and enjoyable as possible. We look
+                        forward to welcoming
+                        you and providing you with an exceptional hotel experience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="booking">
+        <h2>Book Your Stay</h2>
+        <div class="container">
+            <form action="mailto:starvicki2002@gmail.com" method="post" enctype="text/plain">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Full Name</label>
+                    <input type="text" class="form-control" name="name" id="name" placeholder="Enter your full name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email address</label>
+                    <input type="email" class="form-control" name="email" id="email" placeholder="name@example.com" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Mobile No</label>
+                    <input type="tel" class="form-control" name="phno" id="phno" placeholder="Enter your Phone Number" required>
+                </div>
+                <div class="mb-3">
+                    <label for="checkin" class="form-label">Check-in Date</label>
+                    <input type="date" class="form-control" name="checkin" id="checkin" required>
+                </div>
+                <div class="mb-3">
+                    <label for="checkout" class="form-label">Check-out Date</label>
+                    <input type="date" class="form-control" name="checkout" id="checkout" required>
+                </div>
+                <div class="mb-3">
+                    <label for="room-type" class="form-label">Room Type</label>
+                    <select class="form-control" name="room-type" id="room-type" required>
+                        <option value="deluxe">Deluxe Room</option>
+                        <option value="standard">Standard Room</option>
+                        <option value="joint">Joint Room</option>
+                        <option value="connecting">Connecting Room</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="no-of-person" class="form-label">No of Person</label>
+                    <input type="number" class="form-control" name="no-of-person" id="no-of-person" max="10" min="1" required>
+                </div>
+                <div class="mb-3">
+                    <label for="amenities" class="form-label">Amenities</label>
+                    <div class="form-check text-start">
+                        <input class="form-check-input" type="checkbox" value="swimming_pool" name="Amenities" id="swimming_pool">&nbsp;
+                        <label class="form-check-label" for="swimming_pool">Swimming Pool</label>
+                    </div>
+                    <div class="form-check text-start">
+                        <input class="form-check-input" type="checkbox" value="spa" name="Amenities" id="spa">&nbsp;
+                        <label class="form-check-label" for="spa">Spa Services</label>
+                    </div>
+                    <div class="form-check text-start">
+                        <input class="form-check-input" type="checkbox" value="fitness_center" name="Amenities" id="fitness_center">&nbsp;
+                        <label class="form-check-label" for="fitness_center">Fitness Center</label>
+                    </div>
+                    <div class="form-check text-start">
+                        <input class="form-check-input" type="checkbox" value="television" name="Amenities" id="television">&nbsp;
+                        <label class="form-check-label" for="television">Television</label>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Book Now</button>
+            </form>
+        </div>
+    </section>
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-sm-6 mb-3 mb-md-0">
+                            <h5>Quick Links</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#" class="text-white">Home</a></li>
+                                <li><a href="#rooms" class="text-white">Rooms</a></li>
+                                <li><a href="#amenities" class="text-white">Amenities</a></li>
+                                <li><a href="#testimonials" class="text-white">Testimonials</a></li>
+                                <li><a href="#booking" class="text-white">Book Now</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6 mb-3 mb-md-0">
+                            <h5>Contact Us</h5>
+                            <p>Email: <a href="mailto:info@starhotel.com" class="text-white">info@starhotel.com</a></p>
+                            <p>Phone: <a href="tel:+1234567890" class="text-white">+123 456 7890</a></p>
+                            <p>Address: 123 Vivekanadar street, dubai main road, Dubai</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 align-self-center">
+                    <h5>Follow Us</h5>
+                    <div>
+                        <a href="#" class="text-white me-3"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-3">
+                <p class="mb-0">&copy; 2024 Star Hotel. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-ZM6o1mdjPkqlbKao2FNvo0vJ8iHXQy8G5pEN5GxCZp1nY0ZTsb0Xj9JJXG7B6NVO"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
